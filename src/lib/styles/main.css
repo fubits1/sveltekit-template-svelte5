@@ -1,14 +1,25 @@
 @import './reset.css';
+@import './token.css';
 
 button {
 	background: white;
 	color: black;
 	border: 2px solid black;
 	padding: 8px 12px;
+	border-radius: var(--border-radius-large);
 	font-weight: 700;
 	transition: background 0.3s;
+	cursor: pointer;
 
-	&:hover {
+	&.primary {
+		background: black;
+		color: white;
+	}
+
+	&:hover,
+	&:active,
+	&:focus,
+	&:focus-visible {
 		background: lightblue;
 	}
 }
