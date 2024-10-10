@@ -1,6 +1,7 @@
 # SvelteKit Template
 
 - [x] Eslint flat config for TypeScript & Vanilla
+  - [ ] re-evaluate if explicit Eslint config
 - [x] Prettier
 - [x] Bun
 - [x] nvm: pin Node version (20 for AWS-/Nixpacks-based compatibility, e.g. for Vercel, Coolify, etc.)

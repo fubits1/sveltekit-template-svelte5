@@ -1,5 +1,29 @@
 @import './reset.css';
 @import './token.css';
+@import './utils.css';
+
+main {
+	--pad: 1rem;
+	padding: var(--pad);
+	@media screen and (max-width: 375px) {
+		--pad: 0.5rem;
+	}
+}
+
+main,
+section {
+	display: flex;
+	flex-direction: column;
+	gap: var(--pad);
+}
+
+section {
+	&.contained {
+		max-width: 1000px;
+		margin-block-start: auto;
+		margin-block-end: auto;
+	}
+}
 
 button {
 	background: white;

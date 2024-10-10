@@ -20,7 +20,6 @@
 
 <style>
 	aside {
-		outline: 2px dashed orangered;
 		padding: 0.5rem;
 		border-radius: var(--border-radius-large);
 		display: flex;

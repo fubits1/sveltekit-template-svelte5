@@ -1,0 +1,41 @@
+.outline {
+	outline: 2px dashed currentColor;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.flex-top {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.self-center {
+	align-self: center;
+}
+
+.gap-1 {
+	gap: var(--pad, 1rem);
+}
+
+.flex-1 {
+	flex: 1;
+}
